@@ -1,0 +1,64 @@
+/**
+* Corevestor Stylesheet
+* @date: 15-03-2021 14:31:09
+**/
+
+body {
+    font-weight: 400;
+}
+
+.et-fixed-header #logo {
+    filter: brightness(0) invert(1);
+}
+
+.et_pb_section .section-header-content {
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.et_pb_section .section-header-content .et_pb_button_module_wrapper {
+    display: inline-block;
+    margin: 10px;
+}
+
+body #page-container .et_pb_section .et_pb_button_1.btn-white:hover {
+    color: #fff !important;
+}
+
+.list-style-check ul {
+    padding-left: 0;
+    margin-top: 15px;
+    display: grid;
+    border-radius: 5px;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+    grid-gap: 1rem;
+}
+
+.list-style-check.gap-0 ul {
+    grid-gap: 0;
+}
+
+.list-style-check p:not(:last-of-type)+ul {
+    margin-top: 0;
+}
+
+.list-style-check.style-2 ul {
+    padding-bottom: 0;
+    margin-top: 0;
+    grid-gap: 0;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr))
+}
+
+.list-style-check.style-2.gap-10 ul {
+    grid-gap: 10px;
+}
+
+.list-style-check ul li:before {
+    content: "\4e";
+    font-family: etmodules;
+    color: #178112;
+    margin-right: 5px;
+    font-weight: bold;
+}
